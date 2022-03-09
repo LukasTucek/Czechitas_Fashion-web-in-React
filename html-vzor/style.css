@@ -1,0 +1,197 @@
+/*
+  Společná část CSS
+  Tu vlož do hlavního style.css společného pro celou aplikaci
+*/
+/*
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;700&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #333232;
+  background: #fff9f1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Playfair Display', serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.products {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+}
+
+
+
+
+/*
+  ------------------
+  HEADER
+  ------------------
+*/
+.header {
+	display: flex;
+	align-items: center;
+	margin: 30px 0 80px 0;
+	color: #fcf0e1;
+	background: #5c5753;
+}
+
+.header__title {
+	margin: -15px 20px -15px 20px;
+	padding: 15px 20px;
+	color: #fcf0e1;
+	background: #ba6e46;
+}
+
+.header__description {
+	color: #fcf0e1;
+}
+
+
+
+/*
+  ------------------
+  FOOTER
+  ------------------
+*/
+.footer {
+	margin: 80px 0 30px 0;
+	padding: 20px;
+	color: #fcf0e1;
+	background: #333232;
+}
+
+.footer__copyright {
+	margin: 0;
+}
+
+.footer__disclosure {
+	margin: 20px 0 0 0;
+	font-size: 15px;
+	line-height: 1;
+	opacity: 0.7;
+}
+
+
+
+/*
+  ------------------
+  DRESSES
+  ------------------
+*/
+.dresses {
+	margin: 50px 0;
+}
+
+.dresses h2 {
+	margin: 0 0 30px 0;
+	padding-bottom: 15px;
+	font-size: 36px;
+	line-height: 1;
+	border-bottom: 1px solid #ba6e46;
+}
+
+.dresses .product__image {
+	aspect-ratio: 3 / 4;
+}
+
+
+/*
+  ------------------
+  SHOES
+  ------------------
+*/
+.shoes {
+	margin: 50px 0;
+}
+
+.shoes h2 {
+	margin: 0 0 30px 0;
+	padding-bottom: 15px;
+	font-size: 36px;
+	line-height: 1;
+	border-bottom: 1px solid #ba6e46;
+}
+
+.shoes .product__image {
+	aspect-ratio: 4 / 3;
+}
+
+
+
+/*
+  ------------------
+  ACCESSORIES
+  ------------------
+*/
+.accessories {
+	margin: 50px 0;
+}
+
+.accessories h2 {
+	margin: 0 0 30px 0;
+	padding-bottom: 15px;
+	font-size: 36px;
+	line-height: 1;
+	border-bottom: 1px solid #ba6e46;
+}
+
+.accessories .product__image {
+	aspect-ratio: 1 / 1;
+}
+
+
+/*
+  ------------------
+  PRODUCT
+  ------------------
+*/
+.product {
+	border: 1px solid #dcd7d0;
+	display: flex;
+	flex-direction: column;
+}
+
+.product__image {
+	display: block;
+	width: 100%;
+	object-fit: cover;
+}
+
+.product__content {
+	flex: 1;
+	padding: 20px;
+	background: #fffffc;
+}
+
+.product__name {
+	margin: 0 0 20px 0;
+}
+
+.product__description {
+	font-size: 15px;
+}
+
+.product__price {
+	font-weight: 700;
+	margin-bottom: 0;
+}
