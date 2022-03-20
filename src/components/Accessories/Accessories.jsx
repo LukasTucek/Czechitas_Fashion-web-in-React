@@ -1,6 +1,6 @@
 import React from "react";
 import './style.css';
-import Product from "../Product/Product";
+import Product from "../Product/Product"
 import blueHandbag from '../../assets/blue-handbag.jpg';
 import greyScarf from '../../assets/grey-scarf.jpg';
 import glasses from '../../assets/glasses.jpg';
@@ -13,7 +13,6 @@ const Accessories = () => {
         <section className="accessories">
 			<h2>Doplňky</h2>
 			<div className="products">
-				<div className="product">
 
                 <Product 
                     image={blueHandbag}
@@ -36,7 +35,7 @@ const Accessories = () => {
                     price={'1620 Kč'}
                 />
 
-                </div>
+                
             </div>
         </section>
         

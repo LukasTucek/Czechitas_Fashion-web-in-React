@@ -12,8 +12,7 @@ const Shoes = () => {
             <section className="shoes">
 			<h2>Boty</h2>
 			<div className="products">
-				<div className="product">
-
+				
                 <Product 
                     image={runningShoes}
                     name={'Běhací tenisky'} 
@@ -35,7 +34,6 @@ const Shoes = () => {
                     price={'6200 Kč'}
                 />
 
-                </div>
             </div>
         </section>
     </> 

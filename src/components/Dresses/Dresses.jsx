@@ -13,8 +13,7 @@ const Dresses = () => {
         <section className="dresses">
 			<h2>Šaty</h2>
 			<div className="products">
-				<div className="product">
-
+				
                 <Product 
                     image={redDress}
                     name={'Červené šaty'} 
@@ -36,7 +35,7 @@ const Dresses = () => {
                     price={'4250 Kč'}
                 />
 
-                </div>
+                
             </div>
         </section>
 
