@@ -1,0 +1,15 @@
+.dresses {
+	margin: 50px 0;
+}
+
+.dresses h2 {
+	margin: 0 0 30px 0;
+	padding-bottom: 15px;
+	font-size: 36px;
+	line-height: 1;
+	border-bottom: 1px solid #ba6e46;
+}
+
+.dresses .product__image {
+	aspect-ratio: 3 / 4;
+}
